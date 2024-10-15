@@ -1,2 +1,2 @@
 Author: [Eric Villanueva]
-Purpose: [Learning to code]
+Purpose: [Learning to Code]
