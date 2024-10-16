@@ -1,33 +1,33 @@
-body {
-    background-color: #f0f0f0;
-    font-family: arial, sans-serif;
+/* Type Selector: Targets all <h1> elements */
+h1 {
+    color: #2c3e50;
+    text-align: center;
 }
 
-p {
-    color: #333;
-}
-
-
+/* ID Selector: Targets the element with id="main-content" */
 #main-content {
+    background-color: #ecf0f1;
     padding: 20px;
-    background-color: #fff;
+    border-radius: 8px;
 }
 
-.container {
-    border: 1px solid #ccc;
-    margin: 20px;
+/* Class Selector: Targets elements with class="content-box" */
+.content-box {
+    border: 1px solid #bdc3c7;
+    margin: 20px auto;
+    width: 80%;
 }
 
-
+/* Pseudo-class Selector: Changes appearance of the link on hover */
 a.button:hover {
-    background-color: #333;
+    background-color: #3498db;
     color: white;
-    text-decoration: none;
     padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-
+/* Pseudo-element Selector: Adds content after the button text */
 a.button::after {
     content: " →";
     font-weight: bold;
